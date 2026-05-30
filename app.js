@@ -9,6 +9,7 @@ app.get("/", (req, res) => {
       <body>
         <h1>CI/CD Demo on AWS EC2</h1>
         <p>Deployed automatically with GitHub Actions.</p>
+        <p>Updated automatically after git push.</p>
       </body>
     </html>
   `);
